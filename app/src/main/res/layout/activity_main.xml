@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EFEF"
+    tools:context=".MainActivity">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintFragment"
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:src="@drawable/ic_profile"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IVnotification"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:src="@drawable/ic_notifications"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/imageView"-->
+<!--            app:layout_constraintHorizontal_bias="1"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVhi"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text="@string/hi"-->
+<!--            android:textColor="#FFC107"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/IVnotification"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVname"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text="jayson 🍹"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="#FF9800"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textStyle="bold"-->
+
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/IVnotification"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/TVhi"-->
+
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVtotalsavings"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:text="@string/total_savings"-->
+<!--            android:textColor="#191970"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVamount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:text="KSh"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/TVamount2"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/TVtotalsavings"-->
+
+<!--            app:layout_constraintStart_toStartOf="@+id/TVtotalsavings"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TVtotalsavings" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVamount2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:text="0.00"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/TVtotalsavings"-->
+<!--            app:layout_constraintHorizontal_bias="0.642"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/TVtotalsavings"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TVtotalsavings" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IVdeposit"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/depo"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.3"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVamount"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVdeposit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/deposit"-->
+<!--            android:textColor="#191970"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/IVdeposit"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/IVdeposit"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/IVdeposit"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IVwithdraw"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_withdraw"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.7"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVamount"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVwithdraw"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:text="Withdraw"-->
+<!--            android:textColor="#191970"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/IVwithdraw"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/IVwithdraw"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/IVwithdraw"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVmySavings"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:text="@string/my_savings"-->
+<!--            android:textColor="#191970"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVdeposit"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/RV1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:overScrollMode="always"-->
+<!--            android:scrollbarStyle="insideOverlay"-->
+
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVmySavings"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVreasons"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:text="@string/reasonsto_save"-->
+<!--            android:textColor="#191970"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/RV1"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+
+<!--&lt;!&ndash;        <androidx.cardview.widget.CardView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/Card1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_margin="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="#ECE1DD"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:paddingLeft="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cardCornerRadius="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:cardElevation="8dp"&ndash;&gt;-->
+
+<!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="@+id/TVreasons"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="@+id/TVreasons"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/TVreasons" />&ndash;&gt;-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/Recv"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVreasons"-->
+<!--            app:layout_constraintVertical_bias="0" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginBottom="0dp"
+            android:background="#F6EFEF"
+            app:menu="@menu/bottom_nav"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_savings">Total Savings</string>
+    <string name="deposit">Deposit</string>
+    <string name="my_savings">My Savings</string>
+    <string name="reasons_to_save">Reasons to Save</string>
+    <string name="jayson">Jayson</string>
+    <string name="hi">Hi</string>
+</resources>

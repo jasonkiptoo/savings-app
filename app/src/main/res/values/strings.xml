@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-Goal</string>
+    <string name="total_savings">Total Savings</string>
+    <string name="deposit">Deposit</string>
+    <string name="my_savings">My Savings</string>
+    <string name="jayson">Jayson ☺️</string>
+    <string name="hi">Hi</string>
+    <string name="reasonsto_save">Reasons to save</string>
+    <string name="how_much_do_you_want_to_deposit">How much do you want to deposit?</string>
+
+
+    <array name="List">
+        <item>First Goal</item>
+        <item>Second Goal</item>
+        <item>Thrid Goal</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
